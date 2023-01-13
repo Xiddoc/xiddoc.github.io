@@ -1,0 +1,3 @@
+Flask
+Pillow
+minify-html==0.6.10
