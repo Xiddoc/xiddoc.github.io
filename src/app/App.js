@@ -8,8 +8,10 @@ function App() {
         <p>
           Just kidding. I love learning about innovative technologies and building new
           creations to help improve my and others' lives. Amongst my favorite hobbies
-          are <code>programming</code> and <code>hacking/pentesting</code>.<br /><br />
-          <a target="_blank" href="https://github.com/Xiddoc">Check out my GitHub!</a><br /><br />
+          are <code>programming</code> and <code>hacking/pentesting</code>.
+          <br /><br />
+          <a target="_blank"  rel="noreferrer" href="https://github.com/Xiddoc">Check out my GitHub!</a>
+          <br /><br />
           (This site is still under development)
         </p>
       </div>
