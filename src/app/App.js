@@ -1,6 +1,7 @@
 import './App.css';
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import RandomLogo from "./logo/RandomLogo";
+import GitHubCards from './github_cards/GitHubCards'
 
 function App() {
   // noinspection JSValidateTypes
@@ -22,15 +23,21 @@ function App() {
         <p>(Scroll down...)</p>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={0.9} speed={1.3} className="content">
+      <ParallaxLayer offset={0.9} speed={1.3} factor={0.5} className="content">
         <p>
-          Just kidding. I love learning about innovative technologies and building new
-          creations to help improve my and others' lives. Amongst my favorite hobbies
-          are <code>programming</code> and <code>hacking/pentesting</code>.
+          Just kidding. I love learning new technologies and using them to help improve people's lives.
+        </p>
+
+        <p>
+          My favorite hobbies are <code>programming</code> and <code>hacking / pentesting</code>.
         </p>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={1.5} speed={0.25} className="content">
+      <ParallaxLayer offset={1.0} speed={1.3} className="content">
+        <GitHubCards />
+      </ParallaxLayer>
+
+      <ParallaxLayer offset={2} speed={0.25} className="content">
         <a target="_blank"  rel="noreferrer" href="https://github.com/Xiddoc">Check out my GitHub!</a>
         <br /><br />
         (This site is still under development)
