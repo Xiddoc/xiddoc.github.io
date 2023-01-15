@@ -1,9 +1,8 @@
 import Logo from "./Logo";
 
-function RandomLogo() {
+function RandomLogo(props) {
     return <Logo style={{
-        position: 'absolute', left: Math.floor(Math.random() * 70 + 10) + '%',
-        height: '5%', rotate: Math.floor(Math.random() * 160 - 80) + 'deg'}} />
+        position: 'absolute', rotate: Math.floor(Math.random() * 160 - 80) + 'deg', ...props}} />
 }
 
 export default RandomLogo;
