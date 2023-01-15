@@ -5,7 +5,7 @@ import GitHubCards from './github_cards/GitHubCards'
 
 function App() {
   // Config
-  const pages = 4;
+  const pages = 5;
   const emojis = 25;
   // noinspection JSValidateTypes
   return (
@@ -18,6 +18,7 @@ function App() {
         ))
       }
       </ParallaxLayer>
+
       <ParallaxLayer speed={0.75} sticky={{start: 0, end: 0.3}} className="content">
         <h1>I like to party!!!</h1>
         <p style={{bottom: '10%'}}>(Scroll down...)</p>

@@ -13,6 +13,9 @@ function GitHubCards() {
       <div style={{margin: "10px"}}>
         <RepoCard username="xiddoc" repository="LearningRSA" dark={true}/>
       </div>
+      <div style={{margin: "10px"}}>
+        <RepoCard username="xiddoc" repository="xiddoc.github.io" dark={true}/>
+      </div>
     </div>
   )
 }
