@@ -2,7 +2,7 @@
   "name": "iliketo.party",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iliketo.party/",
+  "homepage": "https://xiddoc.github.io/",
   "dependencies": {
     "@react-spring/parallax": "^9.6.1",
     "@testing-library/jest-dom": "^5.16.5",
