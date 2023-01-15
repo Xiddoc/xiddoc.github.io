@@ -63,9 +63,10 @@ function App() {
       </ParallaxLayer>
 
       {/* THIRD SLIDE: LINKS */}
-      <ParallaxLayer offset={4.5} speed={0.75} sticky={{start: 4.5, end: pages}} className="content">
-        <SocialIcon url="https://github.com/Xiddoc" />
-      </ParallaxLayer>
+      {/*<ParallaxLayer offset={4.5} speed={0.75} sticky={{start: 4.5, end: 4.9}} factor={1} className="content">*/}
+      {/*  /!*<SocialIcon url="https://github.com/Xiddoc" />*!/*/}
+      {/*  <p>test</p>*/}
+      {/*</ParallaxLayer>*/}
     </Parallax>
   );
 }
