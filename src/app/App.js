@@ -6,7 +6,7 @@ import {SocialIcon} from "react-social-icons";
 
 function App() {
   // Config
-  const pages = 5;
+  const pages = 6;
   const emojis = 25;
   // noinspection JSValidateTypes
   return (
@@ -55,7 +55,7 @@ function App() {
       </ParallaxLayer>
 
       {/* SECOND SLIDE: PROJECTS */}
-      <ParallaxLayer offset={2.5} speed={0.75} sticky={{start: 2.5, end: 3.5}} factor={1} className="content">
+      <ParallaxLayer speed={0.75} sticky={{start: 3, end: 4}} className="content">
         <p>
           Here are some of my favorite projects I've made:
         </p>
@@ -63,7 +63,7 @@ function App() {
       </ParallaxLayer>
 
       {/* THIRD SLIDE: LINKS */}
-      <ParallaxLayer offset={4.5} speed={0.75} factor={1} className="content">
+      <ParallaxLayer speed={0.75} offset={5} className="content">
         <p>
           Want to reach out and see more? Connect with me!
         </p>
