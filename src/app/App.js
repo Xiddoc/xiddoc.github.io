@@ -8,6 +8,12 @@ function App() {
   // Config
   const pages = 6;
   const emojis = 25;
+  const iconStyle = {
+    margin: '30px',
+    width: `${window.outerWidth * 0.2}px`,
+    height: `${window.outerWidth * 0.2}px`
+  }
+
   // noinspection JSValidateTypes
   return (
     <Parallax pages={pages}>
@@ -67,7 +73,9 @@ function App() {
         <p>
           Want to reach out and see more? Connect with me!
         </p>
-        <SocialIcon url="https://github.com/Xiddoc" />
+        <SocialIcon style={iconStyle} url="https://github.com/Xiddoc" />
+        <SocialIcon style={iconStyle} url="https://www.linkedin.com/in/sajih" />
+        <SocialIcon style={iconStyle} url="https://instagram.com/ig.iliketo.party" />
       </ParallaxLayer>
     </Parallax>
   );
