@@ -1,0 +1,5 @@
+/* Separate the GH Cards */
+.gh-cards > * {
+    display: block;
+    margin: 30px 0;
+}
