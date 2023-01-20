@@ -1,20 +1,19 @@
-import './GitHubCardCache';
-import RepoCard from "react-repo-card";
+import GHRepoCard from "./GHRepoCard";
 
 function GitHubCards() {
   return (
     <div>
       <div style={{margin: "10px"}}>
-        <RepoCard username="xiddoc" repository="ComPy" dark={true}/>
+        <GHRepoCard username="xiddoc" repo="ComPy" />
       </div>
       <div style={{margin: "10px"}}>
-        <RepoCard username="xiddoc" repository="PySdarot" dark={true}/>
+        <GHRepoCard username="xiddoc" repo="PySdarot" />
       </div>
       <div style={{margin: "10px"}}>
-        <RepoCard username="xiddoc" repository="LearningRSA" dark={true}/>
+        <GHRepoCard username="xiddoc" repo="LearningRSA" />
       </div>
       <div style={{margin: "10px"}}>
-        <RepoCard username="xiddoc" repository="xiddoc.github.io" dark={true}/>
+        <GHRepoCard username="xiddoc" repo="xiddoc.github.io" />
       </div>
     </div>
   )
