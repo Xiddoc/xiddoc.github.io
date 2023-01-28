@@ -1,12 +1,13 @@
 import './App.css';
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import RandomLogo from "./logo/RandomLogo";
-import GitHubCards from './github_cards/GitHubCards'
 import {SocialIcon} from "react-social-icons";
+import GHRepoCard from "./github_cards/GHRepoCard";
+import GHMarkDown from "./github_cards/GHMarkDown";
 
 function App() {
   // Config
-  const pages = 6;
+  const pages = 8;
   const emojis = 25;
   const iconStyle = {
     margin: '30px',
@@ -65,11 +66,25 @@ function App() {
         <p>
           Here are some of my favorite projects I've made:
         </p>
-        <GitHubCards />
+
+        <GHRepoCard username="xiddoc" repo="ComPy" />
+        <GHRepoCard username="xiddoc" repo="PySdarot" />
+        <GHRepoCard username="xiddoc" repo="LearningRSA" />
+        <GHRepoCard username="xiddoc" repo="xiddoc.github.io" />
       </ParallaxLayer>
 
-      {/* THIRD SLIDE: LINKS */}
-      <ParallaxLayer speed={0.75} offset={5} className="content">
+      {/* THIRD SLIDE: HACKING */}
+      <ParallaxLayer speed={0.75} sticky={{start: 5, end: 6}} className="content">
+        <p>
+          I also like white-hat hacking, here are some exploits I helped fix:
+        </p>
+
+        <GHRepoCard username="xiddoc" repo="Hacking-Writeups" />
+        <GHMarkDown username="xiddoc" repo="Hacking-Writeups" />
+      </ParallaxLayer>
+
+      {/* LAST SLIDE: LINKS */}
+      <ParallaxLayer speed={0.75} offset={7} className="content">
         <p>
           Want to reach out and see more? Connect with me!
         </p>
