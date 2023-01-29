@@ -79,7 +79,6 @@ function App() {
           I also like white-hat hacking, here are some exploits I helped fix:
         </p>
 
-        <GHRepoCard username="xiddoc" repo="Hacking-Writeups" />
         <GHMarkDown username="xiddoc" repo="Hacking-Writeups" />
       </ParallaxLayer>
 
