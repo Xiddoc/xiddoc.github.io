@@ -18,3 +18,4 @@ jobs:
       uses: bitovi/github-actions-react-to-github-pages@v1.2.4
       with:
         path: build
+        install_command: "npm install && npm ci"
